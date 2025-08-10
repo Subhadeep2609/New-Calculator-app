@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1a1a1a;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calc{
+    padding: 20px;
+    background: transparent;
+    border-radius: 20px;
+    box-shadow: -1px -1px 10px 10px rgba(148, 148, 148, 0.8);
+}
+
+#input{
+    height: 100px;
+    text-align: center;
+    margin: 10px;
+    color:#fff;
+    font-size: 60px;
+    overflow: hidden;
+    max-width: 400px;
+}
+
+button{
+    color: #fff;
+    border:none;
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: transparent;
+    box-shadow: 6px 6px 10px rgba(148,148,148,0.8),
+                -6px -6px 10px rgba(148,148,148,0.8);
+}
+
+.dgn{
+    box-shadow: inset 6px 6px 10px rgba(148,148,148,0.8),
+                inset -6px -6px 10px rgba(148,148,148,0.8);
+}
+
+/* Tablet screens (768px and below) */
+@media (max-width: 768px) {
+    .calc {
+        padding: 15px;
+    }
+    #input {
+        font-size: 7vw;
+        height: auto;
+        min-height: 10vh;
+    }
+    button {
+        width: 16vw;
+        height: 16vw;
+        font-size: 5.5vw;
+    }
+}
+
+/* Mobile screens (480px and below) */
+@media (max-width: 480px) {
+    .calc {
+        padding: 10px;
+    }
+    #input {
+        font-size: 9vw;
+        height: auto;
+        min-height: 12vh;
+    }
+    button {
+        width: 18vw;
+        height: 18vw;
+        font-size: 7vw;
+    }
+}
