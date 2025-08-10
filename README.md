@@ -3,6 +3,7 @@ A simple yet elegant calculator web app built with HTML, CSS, and JavaScript, fe
 
 
 ✨ Features
+
 Neumorphic UI for a modern, soft, 3D button effect.
 
 Responsive Design — works seamlessly on all screen sizes.
